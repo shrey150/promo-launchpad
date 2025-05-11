@@ -276,10 +276,18 @@ export default function LandingPage() {
                                 Applications for ProMo Launchpad close on May 24th. Don't miss your chance to join this exclusive
                                 fellowship.
                             </p>
-                            <Button size="lg" className="bg-lime-500 hover:bg-lime-400 text-black font-medium">
-                                Apply Now
-                                <ChevronRight className="ml-2 h-4 w-4" />
+                            <Button asChild size="lg">
+                                <a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdWBW-l5_bQhrisW7_4xZzO1_dpZiGOS7EuBslNmeW7_vTnVw/viewform"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-lime-500 hover:bg-lime-400 text-black font-medium"
+                                >
+                                    Apply Now
+                                    <ChevronRight className="ml-2 h-4 w-4" />
+                                </a>
                             </Button>
+
                         </div>
                     </div>
                 </section>
