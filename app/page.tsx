@@ -75,22 +75,12 @@ export default function LandingPage() {
                                             <ChevronRight className="ml-2 h-4 w-4" />
                                         </a>
                                     </Button>
-
-                                    <Button size="lg" variant="outline" className="border-zinc-700 text-white hover:bg-zinc-800">
-                                        Learn More
-                                    </Button>
                                 </div>
                             </div>
-                            <div className="relative aspect-video overflow-hidden rounded-xl border-2 border-zinc-800 shadow-2xl shadow-lime-900/20">
-                                <div className="absolute inset-0 flex items-center justify-center bg-zinc-900">
-                                    <div className="group cursor-pointer">
-                                        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-r from-lime-500 to-emerald-400 shadow-lg transition-transform group-hover:scale-90">
-                                            <Play className="h-8 w-8 fill-current text-black" />
-                                        </div>
-                                        <span className="mt-4 block text-center text-sm font-medium">Watch Promo Video</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <video
+                                src="/ProMo_Launchpad.mp4"
+                                controls
+                                className="absolute inset-0 w-full h-full object-cover" />
                         </div>
                     </div>
 
@@ -111,7 +101,7 @@ export default function LandingPage() {
                             <div className="flex flex-col items-center">
                                 <div className="h-16 w-auto mb-2">
                                     <Image
-                                        src="/placeholder.svg?height=64&width=120"
+                                        src="/google.png"
                                         alt="Google logo"
                                         width={120}
                                         height={64}
@@ -123,7 +113,7 @@ export default function LandingPage() {
                             <div className="flex flex-col items-center">
                                 <div className="h-16 w-auto mb-2">
                                     <Image
-                                        src="/placeholder.svg?height=64&width=120"
+                                        src="/micro.png"
                                         alt="Microsoft logo"
                                         width={120}
                                         height={64}
@@ -135,7 +125,7 @@ export default function LandingPage() {
                             <div className="flex flex-col items-center">
                                 <div className="h-16 w-auto mb-2">
                                     <Image
-                                        src="/placeholder.svg?height=64&width=120"
+                                        src="/uber.png"
                                         alt="Uber logo"
                                         width={120}
                                         height={64}
@@ -147,14 +137,14 @@ export default function LandingPage() {
                             <div className="flex flex-col items-center">
                                 <div className="h-16 w-auto mb-2">
                                     <Image
-                                        src="/placeholder.svg?height=64&width=120"
-                                        alt="University of Michigan logo"
+                                        src="/cap.png"
+                                        alt="Capital One Logo"
                                         width={120}
                                         height={64}
                                         className="h-full w-auto object-contain brightness-200"
                                     />
                                 </div>
-                                <span className="text-zinc-400 text-sm">University of Michigan</span>
+                                <span className="text-zinc-400 text-sm">Capital One</span>
                             </div>
                         </div>
                     </div>
