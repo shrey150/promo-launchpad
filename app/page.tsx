@@ -61,7 +61,7 @@ export default function LandingPage() {
                                     Career
                                 </h1>
                                 <p className="text-xl text-zinc-400">
-                                    A 6-week online program for UMich students looking to break into product management
+                                    A 6-week mentorship program for rising junior UMich students looking to break into product management
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Button asChild size="lg">
@@ -173,7 +173,7 @@ export default function LandingPage() {
                                         <Calendar className="h-6 w-6 text-lime-400" />
                                     </div>
                                     <h3 className="text-xl font-bold">6-Week Program</h3>
-                                    <p className="mt-2 text-zinc-400">Intensive online summer program designed to fit your schedule</p>
+                                    <p className="mt-2 text-zinc-400">Online summer program designed to fit your schedule</p>
                                 </CardContent>
                             </Card>
                             <Card className="bg-zinc-900 border-zinc-800">
