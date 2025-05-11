@@ -80,6 +80,7 @@ export default function LandingPage() {
                             <div className="relative aspect-video overflow-hidden rounded-xl border-2 border-zinc-800 shadow-2xl shadow-lime-900/20 bg-zinc-900">
                                 <video
                                     src="/ProMo_Launchpad.mp4"
+                                    poster="/promo.png"
                                     controls
                                     className="w-full h-full object-cover"
                                 />
