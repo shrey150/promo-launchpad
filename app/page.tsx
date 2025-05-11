@@ -216,8 +216,7 @@ export default function LandingPage() {
                                 <div>
                                     <h3 className="text-xl font-bold">Resume Prep Workshops</h3>
                                     <p className="mt-2 text-zinc-400">
-                                        Craft a standout PM resume with guidance from industry professionals who know what recruiters look
-                                        for
+                                        Craft a standout PM resume with tips from students who’ve landed PM internships at top tech companies
                                     </p>
                                 </div>
                             </div>
@@ -228,7 +227,7 @@ export default function LandingPage() {
                                 <div>
                                     <h3 className="text-xl font-bold">1:1 Career Mentorship</h3>
                                     <p className="mt-2 text-zinc-400">
-                                        Get personalized career guidance from PMs at top tech companies who will help you navigate your
+                                        Get personalized career guidance from PMs interns at top tech companies who will help you navigate your
                                         career path
                                     </p>
                                 </div>
@@ -240,7 +239,7 @@ export default function LandingPage() {
                                 <div>
                                     <h3 className="text-xl font-bold">Industry Connections</h3>
                                     <p className="mt-2 text-zinc-400">
-                                        Build your network with mentors from Microsoft, Google, Capital One and other leading companies
+                                        Build your network with PM interns from Microsoft, Google, Capital One and other leading companies
                                     </p>
                                 </div>
                             </div>
@@ -251,7 +250,7 @@ export default function LandingPage() {
                                 <div>
                                     <h3 className="text-xl font-bold">APM/PM Interview Prep</h3>
                                     <p className="mt-2 text-zinc-400">
-                                        Master product case interviews, technical questions, and behavioral interviews with expert coaching
+                                        Master product case interviews, technical questions, and behavioral interviews with coaching
                                     </p>
                                 </div>
                             </div>
