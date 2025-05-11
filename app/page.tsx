@@ -61,7 +61,7 @@ export default function LandingPage() {
                                     Career
                                 </h1>
                                 <p className="text-xl text-zinc-400">
-                                    A 6-week online fellowship for UMich students looking to break into product management
+                                    A 6-week online program for UMich students looking to break into product management
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <Button asChild size="lg">
@@ -161,7 +161,7 @@ export default function LandingPage() {
                         <div className="mx-auto max-w-2xl text-center mb-12">
                             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Accelerate Your PM Career</h2>
                             <p className="mt-4 text-zinc-400">
-                                ProMo Launchpad is an exclusive fellowship designed for UMich students interested in product management
+                                ProMo Launchpad is an exclusive program designed for UMich students interested in product management
                                 roles
                             </p>
                         </div>
@@ -269,7 +269,7 @@ export default function LandingPage() {
                             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Ready to Launch Your PM Career?</h2>
                             <p className="mb-8 text-zinc-300">
                                 Applications for ProMo Launchpad close on May 24th. Don't miss your chance to join this exclusive
-                                fellowship.
+                                program.
                             </p>
                             <Button asChild size="lg">
                                 <a
