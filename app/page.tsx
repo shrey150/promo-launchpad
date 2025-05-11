@@ -77,10 +77,14 @@ export default function LandingPage() {
                                     </Button>
                                 </div>
                             </div>
-                            <video
-                                src="/ProMo_Launchpad.mp4"
-                                controls
-                                className="absolute inset-0 w-full h-full object-cover" />
+                            <div className="relative aspect-video overflow-hidden rounded-xl border-2 border-zinc-800 shadow-2xl shadow-lime-900/20 bg-zinc-900">
+                                <video
+                                    src="/ProMo_Launchpad.mp4"
+                                    controls
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+
                         </div>
                     </div>
 
@@ -105,7 +109,7 @@ export default function LandingPage() {
                                         alt="Google logo"
                                         width={120}
                                         height={64}
-                                        className="h-full w-auto object-contain brightness-200"
+                                        className="h-full w-auto object-contain"
                                     />
                                 </div>
                                 <span className="text-zinc-400 text-sm">Google</span>
@@ -113,11 +117,11 @@ export default function LandingPage() {
                             <div className="flex flex-col items-center">
                                 <div className="h-16 w-auto mb-2">
                                     <Image
-                                        src="/micro.png"
+                                        src="/mico.png"
                                         alt="Microsoft logo"
                                         width={120}
                                         height={64}
-                                        className="h-full w-auto object-contain brightness-200"
+                                        className="h-full w-auto object-contain"
                                     />
                                 </div>
                                 <span className="text-zinc-400 text-sm">Microsoft</span>
@@ -129,7 +133,7 @@ export default function LandingPage() {
                                         alt="Uber logo"
                                         width={120}
                                         height={64}
-                                        className="h-full w-auto object-contain brightness-200"
+                                        className="h-full w-auto object-contain"
                                     />
                                 </div>
                                 <span className="text-zinc-400 text-sm">Uber</span>
@@ -141,7 +145,7 @@ export default function LandingPage() {
                                         alt="Capital One Logo"
                                         width={120}
                                         height={64}
-                                        className="h-full w-auto object-contain brightness-200"
+                                        className="h-full w-auto object-contain"
                                     />
                                 </div>
                                 <span className="text-zinc-400 text-sm">Capital One</span>
